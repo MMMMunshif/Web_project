@@ -1,0 +1,199 @@
+
+
+
+
+
+/* General Body and Layout Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* Container for Login Form */
+.container {
+    background-color: #fff;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 80px auto; /* Space between header and form */
+    text-align: center;
+}
+
+/* Login Heading */
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* General form styles */
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Error/Success Message Styles */
+main p {
+    padding: 10px;
+    font-size: 16px;
+}
+
+main p.success {
+    background-color: #dff0d8;
+    color: #3c763d;
+    border: 1px solid #d6e9c6;
+    border-radius: 5px;
+}
+
+main p.error {
+    background-color: #f2dede;
+    color: #a94442;
+    border: 1px solid #ebccd1;
+    border-radius: 5px;
+}
+
+/* Login Link Styling */
+main a {
+    color: #333;
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    font-size: 16px;
+}
+
+main a:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+main {
+
+    margin-top: 100px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 100px;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: flex-start; /* Align items to the top/left */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left; /* Ensure text is aligned to the left */
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ff5e5e;
+    padding-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #ff5e5e;
+}
+
+.footer-logo {
+    width: 220px;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    font-size: 14px;
+    color: #bbb;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+    color: #bbb;
+}
+
+.contact-info strong {
+    color: #fff;
+}
+
+

@@ -1,0 +1,84 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+main h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+main form {
+    display: flex;
+    flex-direction: column;
+}
+
+main form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+main form input[type="text"],
+main form input[type="email"],
+main form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    width: 100%;
+}
+
+main form textarea {
+    resize: vertical;
+}
+
+main form input[type="submit"] {
+    background-color: #ff4040;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 150px;
+    align-self: center;
+}
+
+main form input[type="submit"]:hover {
+    background-color: #ff4040;
+}
+
+/* Success and error message styling */
+main p {
+    text-align: center;
+    font-size: 16px;
+}
+
+main p[style="color: green;"] {
+    color: green;
+}
+
+main p[style="color: red;"] {
+    color: red;
+}
+
+form {
+
+    padding-right: 20px;
+}
